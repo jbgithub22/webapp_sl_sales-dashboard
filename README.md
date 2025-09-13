@@ -1,4 +1,4 @@
-# Streamlit ML Dashboard for Customer Churn Prediction
+# Streamlit ML Dashboard for Customer Sales Prediction
 
 This project is a Streamlit-based machine learning dashboard for customer churn prediction, featuring Exploratory Data Analysis (EDA), Feature Engineering (FE), and XGBoost model predictions. The dashboard integrates with Azure Synapse Analytics for data storage and querying, enabling scalable data processing and analytics.
 
