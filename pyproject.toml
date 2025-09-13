@@ -9,7 +9,17 @@ license = {text = "MIT"}
 readme = "README.md"
 requires-python = "3.12.5"
 dependencies = [
+    "streamlit>=1.36.0",
+    "pandas>=2.2.0",
+    "sqlalchemy>=2.0.31",
+    "pyodbc>=5.1.0",
 ]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+black = "^24.4.2"
+ruff = "^0.5.1"
+pytest-asyncio = "^0.23.7"
 
 
 [build-system]
