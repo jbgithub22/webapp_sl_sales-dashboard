@@ -25,9 +25,9 @@ ml_dashboard/
 │   └── modeling.py          # XGBoost training and prediction functions
 ├── data/
 │   └── churn_dummy.csv      # Dummy dataset for testing
-├── requirements.txt          # Python dependencies
-├── README.md                # This file
-└── .env                     # Environment variables for Azure credentials (not committed)
+├── pyproject.toml           # Python dependencies
+├── poetry.lock              # Poetry dependencies version lock file
+└── README.md                # This file
 ```
 
 ## Prerequisites
