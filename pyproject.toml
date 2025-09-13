@@ -1,0 +1,17 @@
+[project]
+name = "webapp-sl-sales-dashboard"
+version = "0.1.0"
+description = "A streamlit dashboard for customer sales data, with Azure Synapse Date Engineering connection"
+authors = [
+    {name = "JBrien Barcoma",email = "jb.github22@outlook.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = "3.12.5"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
