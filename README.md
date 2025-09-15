@@ -10,6 +10,7 @@ This is a dashboard app project with the following planned features:
 2. Python: Streamlit Dashboard App with EDA, Feature Engineering & Model prediction sections/pages.
 3. Cloud: App hosting on Streamlit Community Cloud and transfer of SQL Database to Azure Cloud
 4. Big Data Engineering Cloud Infrastructure: Connecting the Streamlit App to the Azure Database via Azure Synapse, enabling larger future datasets, with option to use Spark/Databricks.
+5. Containerization: Containerize with Docker
 
 ## Repository Structure
 
@@ -24,7 +25,13 @@ ml_dashboard/
 │   ├── data.py              # Data loading, preprocessing, and Azure Synapse connection
 │   └── modeling.py          # XGBoost training and prediction functions
 ├── data/
-│   └── churn_dummy.csv      # Dummy dataset for testing
+│   └── sales_data.csv       # Dummy dataset for testing
+│   └── customers.csv        # Dummy dataset for testing
+│   └── orders.csv           # Dummy dataset for testing
+│   └── orderdetails.csv     # Dummy dataset for testing
+├── notebooks/
+│   └── draft.ipynb          # Draft notebook version of the entire app
+│   └── sql_test.ipynb       # Setup and testing of SQL Engine for SQL usage
 ├── pyproject.toml           # Python dependencies
 ├── poetry.lock              # Poetry dependencies version lock file
 └── README.md                # This file
