@@ -12,6 +12,28 @@ This is a dashboard app project with the following planned features:
 4. Big Data Engineering Cloud Infrastructure: Connecting the Streamlit App to the Azure Database via Azure Synapse, enabling larger future datasets, with option to use Spark/Databricks.
 5. Containerization: Containerize with Docker
 
+## AI-Assisted Development Process
+
+This Streamlit application was developed using AI-assisted coding (Gemini and GPT) under a guided, structured workflow emphasizing human oversight and prompt engineering skill.
+
+My Contributions and Methods:
+
+- **System Design and Context Planning** – Defined the overall app structure, project setup, dependency management (poetry), data flow, and SQL Server connection requirements through progressive prompt scaffolding.
+
+- **Prompt Engineering** – Structured prompts to incrementally build context and maintain coherence across sessions, ensuring the model followed a logical development path.
+
+- **Technical Oversight** – Identified and corrected model-generated issues such as Python package version mismatches, deprecated or legacy syntax, and broken dependencies.
+
+- **AI Workflow Management** – Directed the model to decompose complex coding tasks into smaller steps to minimize hallucination and improve consistency.
+
+- **Conversation Strategy** – Managed AI conversation states, deciding when to continue an existing thread or restart with refined context for clarity and accuracy.
+
+- **Integration Experience** – Leveraged prior experience in process automation systems (PAS) development to align the app’s architecture with robust data-handling and reliability practices.
+
+This approach combines human design intent with AI acceleration, emphasizing practical prompt engineering, code validation, and iterative refinement rather than one-shot code generation.
+
+Recommended resource: [The Quick Guide to Prompt Engineering by Ian Khan](https://www.amazon.sg/dp/1394243324)
+
 ## Repository Structure
 
 ```
