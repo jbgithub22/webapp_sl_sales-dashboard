@@ -70,6 +70,6 @@ ml_dashboard/
 
 ## Running the app locally
 If running with poetry run with command
-```python
+```bash
 poetry run streamlit run app.py
 ```
