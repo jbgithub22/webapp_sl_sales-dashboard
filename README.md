@@ -73,3 +73,6 @@ If running with poetry run with command
 ```bash
 poetry run streamlit run app.py
 ```
+
+## Changelog / Releases
+7 Oct 2025 - v1.0 - Deployed on Streamlit Community Cloud
