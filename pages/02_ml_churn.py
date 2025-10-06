@@ -45,19 +45,19 @@ if customer_id_selected:
         # High Risk 
         churn_risk_score = np.random.uniform(0.65, 0.95)
         risk_level = "HIGH"
-        color = "red"
+        color = "normal"
         action = "Immediate contact by Sales Manager with a personalized discount offer."
     elif credit_limit >= 50000 and credit_limit < 100000:
         # Medium Risk
         churn_risk_score = np.random.uniform(0.35, 0.65)
         risk_level = "MEDIUM"
-        color = "orange"
+        color = "inverse"
         action = "Send a targeted email campaign showcasing new Classic Car models."
     else:
         # Low Risk
         churn_risk_score = np.random.uniform(0.05, 0.35)
         risk_level = "LOW"
-        color = "green"
+        color = "off"
         action = "Monitor passively and include in standard loyalty communications."
         
     

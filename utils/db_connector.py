@@ -8,7 +8,7 @@ DATABASE_FILE = "classicmodels.sqlite"
 def get_engine():
     """Initializes and returns the SQLAlchemy engine, cached for efficiency."""
     # SQLite URL format: sqlite:///path/to/database.db
-    engine = create_engine(f"sqlite:///../data/{DATABASE_FILE}")
+    engine = create_engine(f"sqlite:///{DATABASE_FILE}")
     return engine
 
 def get_data(sql_query: str) -> pd.DataFrame:
