@@ -18,7 +18,7 @@ This Streamlit application was developed using AI-assisted coding (Gemini and GP
 
 My Contributions and Methods:
 
-- **System Design and Context Planning** – Defined the overall app structure, project setup, dependency management (poetry), data flow, and SQL Server connection requirements through progressive prompt scaffolding.
+- **System Design and Context Planning** – Defined the overall app structure, project setup, dependency management (poetry), secrets management, data flow, and SQL Server connection requirements through progressive prompt scaffolding.
 
 - **Prompt Engineering** – Structured prompts to incrementally build context and maintain coherence across sessions, ensuring the model followed a logical development path.
 
