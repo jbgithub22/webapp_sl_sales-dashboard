@@ -1,5 +1,6 @@
 # User specified files
 secrets.ini
+private/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
