@@ -16,26 +16,28 @@ This is a dashboard app project with the following planned features:
 
 ```
 ml_dashboard/
-├── app.py                    # Main Streamlit app with sidebar navigation
+├── app.py                        # Main Streamlit app with sidebar navigation
+├── classicmodels.sqlite          # MySQL Classic Models Business Dataset
 ├── pages/
-│   ├── 01_eda.py            # EDA page with visualizations
-│   ├── 02_feature_eng.py    # Feature engineering page
-│   └── 03_modeling.py       # XGBoost modeling and prediction page
+│   ├── 01_eda.py                 # EDA page with visualizations
+│   ├── 02_ml_churn.py            # ML page for calculating churn of customers
+│   ├── 03_ml_product_reco.py     # ML page for product recommendations based on past purchase history
+│   └── 04_ml_credit_risk.py      # ML page for risk prediction based on customer credit rating
 ├── utils/
-│   ├── data.py              # Data loading, preprocessing, and Azure Synapse connection
-│   └── modeling.py          # XGBoost training and prediction functions
+│   └── db_connector.py           # Module to connect with SQLEngine
 ├── data/
-│   └── sales_data.csv       # Dummy dataset for testing
-│   └── customers.csv        # Dummy dataset for testing
-│   └── orders.csv           # Dummy dataset for testing
-│   └── orderdetails.csv     # Dummy dataset for testing
+│   └── sales_data.csv            # Dummy dataset for testing
+│   └── customers.csv             # Dummy dataset for testing
+│   └── orders.csv                # Dummy dataset for testing
+│   └── orderdetails.csv          # Dummy dataset for testing
+│   └── classicmodels.sqlite      # Copy of MySQL Classic Models Business Dataset for notebook testing
 ├── notebooks/
-│   └── draft.ipynb          # Draft notebook version of the entire app
-│   └── sql_test.ipynb       # Setup and testing of SQL Engine for SQL usage
-├── pyproject.toml           # Python dependencies
-├── poetry.lock              # Poetry dependencies version lock file
-└── README.md                # This file
-```
+│   └── draft.ipynb               # Draft notebook version of the entire app
+│   └── sql_test.ipynb            # Setup and testing of SQL Engine for SQL usage
+├── pyproject.toml                # Python dependencies
+├── poetry.lock                   # Poetry dependencies version lock file
+└── README.md                     # This file
+``` 
 
 ## Prerequisites
 ### Local VENV
@@ -45,3 +47,9 @@ ml_dashboard/
 ### Azure Cloud
 - Azure Subscription
 - Azure Resource Group
+
+## Running the app locally
+If running with poetry run with command
+```python
+poetry run streamlit run app.py
+```
