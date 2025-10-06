@@ -17,6 +17,7 @@ dependencies = [
     "mysql-connector-python (>=9.4.0,<10.0.0)",
     "matplotlib (>=3.10.6,<4.0.0)",
     "seaborn (>=0.13.2,<0.14.0)",
+    "scikit-learn (>=1.7.2,<2.0.0)",
 ]
 
 [tool.poetry]
